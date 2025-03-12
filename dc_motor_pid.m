@@ -28,3 +28,7 @@ figure;
 step(T);
 title('DC Motor Response with PID Control');
 grid on;
+
+% Use the code below before or after run the program
+pidTuner(G, 'PID');
+
